@@ -1,0 +1,29 @@
+{
+  "name": "@mskelton/cls",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "clsx + tailwind-merge",
+  "keywords": [
+    "clsx",
+    "tailwind-merge",
+    "tailwindcss",
+    "tailwind"
+  ],
+  "author": "Mark Skelton",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.11.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
+  }
+}
